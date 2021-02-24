@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestXXX
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -17,7 +17,7 @@ jobs:
 
   publish-gpr:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestXXX
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
