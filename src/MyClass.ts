@@ -1,5 +1,5 @@
 export default class MyClass {
   myMethod() {
-    console.log("Hello!");
+    console.log("Hello class!");
   }
 }

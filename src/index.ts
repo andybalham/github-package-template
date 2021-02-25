@@ -1,4 +1,4 @@
 import MyClass from "./MyClass";
-import MySubClass from "./subClass/MySubClass";
+import { MySubClass } from "./subClass";
 
 export { MyClass, MySubClass };
