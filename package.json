@@ -2,8 +2,10 @@
   "name": "@andybalham/github-package-test",
   "version": "1.0.0",
   "description": "Test package to play with GitHub packages",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "exit 0"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/andybalham/github-package-test/issues"
   },
-  "homepage": "https://github.com/andybalham/github-package-test#readme"
+  "homepage": "https://github.com/andybalham/github-package-test#readme",
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
 }
