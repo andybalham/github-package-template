@@ -1,6 +1,6 @@
 export default class MyClass {
   //
-  addTwoNumbers(x: number, y: number) {
+  static addTwoNumbers(x: number, y: number): number {
     return x + y;
   }
 }

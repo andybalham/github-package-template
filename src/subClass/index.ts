@@ -1,3 +1,3 @@
-import MySubClass from "./MySubClass";
+import MySubClass from './MySubClass';
 
-export { MySubClass };
+export default { MySubClass };

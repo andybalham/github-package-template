@@ -1,5 +1,6 @@
 export default class MySubClass {
-  myMethod() {
-    console.log("Hello subclass!");
+  static myMethod(): void {
+    // eslint-disable-next-line no-console
+    console.log('Hello subclass!');
   }
 }

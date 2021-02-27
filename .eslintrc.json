@@ -1,14 +1,22 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
   "plugins": [
     "@typescript-eslint"
   ],
   "extends": [
-    "eslint:recommended",
+    "airbnb-typescript",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
   "rules": {
     "indent": [
       "error",
