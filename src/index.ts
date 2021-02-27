@@ -1,4 +1,4 @@
 import MyClass from './MyClass';
-import { MySubClass } from './subClass';
+import Operation from './Operation';
 
-export { MyClass, MySubClass };
+export { MyClass, Operation };
