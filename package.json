@@ -1,6 +1,6 @@
 {
   "name": "@andybalham/github-package-test",
-  "version": "2.25.2154",
+  "version": "2.27.0859",
   "description": "Test package to play with GitHub packages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
