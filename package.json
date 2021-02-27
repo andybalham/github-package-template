@@ -5,8 +5,9 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "lint": "./node_modules/.bin/eslint ./src/*.ts",
+    "lint": "eslint ./src --ext .ts",
+    "lint-and-fix": "eslint ./src --ext .ts --fix",
+    "build": "npm run lint && tsc",
     "test": "exit 0"
   },
   "repository": {
