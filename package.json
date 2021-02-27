@@ -1,7 +1,7 @@
 {
-  "name": "@andybalham/github-package-test",
+  "name": "@andybalham/github-package-template",
   "version": "2.27.1805",
-  "description": "Test package to play with GitHub packages",
+  "description": "Template package for GitHub packages",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andybalham/github-package-test.git"
+    "url": "git+https://github.com/andybalham/github-package-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andybalham/github-package-test/issues"
+    "url": "https://github.com/andybalham/github-package-template/issues"
   },
-  "homepage": "https://github.com/andybalham/github-package-test#readme",
+  "homepage": "https://github.com/andybalham/github-package-template#readme",
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "@types/chai": "^4.2.11",
