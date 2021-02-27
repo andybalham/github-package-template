@@ -4,9 +4,7 @@
   "parserOptions": {
     "project": ["./tsconfig.json"]
   },
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": ["@typescript-eslint"],
   "extends": [
     "airbnb-typescript",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -18,19 +16,9 @@
     }
   },
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "@typescript-eslint/interface-name-prefix": [
-      "off"
-    ],
-    "@typescript-eslint/explicit-function-return-type": [
-      "error"
-    ]
+    "indent": ["error", 2],
+    "semi": ["error", "always"],
+    "@typescript-eslint/interface-name-prefix": ["off"],
+    "@typescript-eslint/explicit-function-return-type": ["error"]
   }
 }
