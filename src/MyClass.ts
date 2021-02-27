@@ -18,6 +18,7 @@ export default class MyClass {
         result = this.value * value;
         break;
 
+      /* istanbul ignore next */
       default:
         throw new Error(`Unhandled operation: ${operation}`);
     }
