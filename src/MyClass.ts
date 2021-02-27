@@ -1,5 +1,8 @@
 export default class MyClass {
-  myMethod() {
-    console.log("Hello class!");
+  //
+  addTwoNumbers(x: number, y: number): number {
+    var a = 4;
+    console.log(`a: ${a}`);
+    return x + y;
   }
 }
