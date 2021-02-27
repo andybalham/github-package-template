@@ -1,9 +1,9 @@
 {
   "name": "@andybalham/github-package-test",
-  "version": "2.27.0859",
+  "version": "2.27.0910",
   "description": "Test package to play with GitHub packages",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "exit 0"

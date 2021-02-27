@@ -30,8 +30,9 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm run build
-      - run: cp ./package.json ./dist/package.json 
-      - run: cd ./dist 
-      - run: npm publish
+      - run: | 
+          cp ./package.json ./dist/package.json 
+          cd ./dist 
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
